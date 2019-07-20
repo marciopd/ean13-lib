@@ -1,0 +1,57 @@
+{
+  "name": "ean13-lib",
+  "version": "0.0.1",
+  "description": "Provides common EAN 13 barcode related features.",
+  "author": "",
+  "main": "dist/index",
+  "typings": "dist/index",
+  "files": [
+    "dist"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "clean": "rimraf ./dist ./coverage",
+    "tslint": "tslint -c tslint.json -t verbose 'spec/**/*.ts' 'src/**/*.ts'",
+    "tslint:fix": "tslint --fix -c tslint.json -t verbose 'spec/**/*.ts' 'src/**/*.ts'",
+    "ts": "tsc",
+    "ts:watch": "tsc -w",
+    "test": "jest --coverage",
+    "build": "npm run clean; npm run ts",
+    "prepublishOnly": "npm run build",
+    "prets": "npm run clean; npm run tslint",
+    "prets:watch": "npm run clean; npm run tslint:fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marciopd/ean13-lib.git"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/jest": "23.3.13",
+    "@types/node": "10.12.18",
+    "@types/supertest": "2.0.7",
+    "jest": "24.7.1",
+    "rimraf": "2.6.3",
+    "ts-jest": "24.0.2",
+    "tslint": "5.15.0",
+    "tslint-microsoft-contrib": "6.1.0",
+    "typescript": "3.4.3"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "moduleFileExtensions": [
+      "js",
+      "json",
+      "ts"
+    ],
+    "rootDir": ".",
+    "testRegex": ".spec.ts$",
+    "transform": {
+      "^.+\\.(t|j)s$": "ts-jest"
+    },
+    "testEnvironment": "node",
+    "setupFiles": [
+      "./jest-setup-file.ts"
+    ]
+  }
+}
