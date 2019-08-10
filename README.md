@@ -13,6 +13,8 @@ $ npm i ean13-lib --save
 ### Number Validation
 Returns if the input (13 length digits string) is an EAN 13 number or not.
 ```
+import { Ean13Utils } from 'ean13-lib';
+
 const result = Ean13Utils.validate('2621922006400');
 expect(result).toBeFalsy();
                     
