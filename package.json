@@ -1,12 +1,18 @@
 {
   "name": "ean13-lib",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Provides common EAN 13 barcode related features.",
   "author": "",
   "main": "dist/index",
   "typings": "dist/index",
   "files": [
     "dist"
+  ],
+  "keywords": [
+    "ean13",
+    "validation",
+    "generation",
+    "check digit"
   ],
   "license": "MIT",
   "scripts": {
