@@ -31,17 +31,16 @@
     "type": "git",
     "url": "https://github.com/marciopd/ean13-lib.git"
   },
-  "dependencies": {},
   "devDependencies": {
-    "@types/jest": "23.3.13",
+    "@types/jest": "30.0.0",
     "@types/node": "10.12.18",
     "@types/supertest": "2.0.7",
-    "jest": "24.7.1",
+    "jest": "30.4.2",
     "rimraf": "2.6.3",
-    "ts-jest": "24.0.2",
-    "tslint": "5.15.0",
+    "ts-jest": "29.4.11",
+    "tslint": "5.8.0",
     "tslint-microsoft-contrib": "6.1.0",
-    "typescript": "3.4.3"
+    "typescript": "6.0.3"
   },
   "jest": {
     "collectCoverage": true,
