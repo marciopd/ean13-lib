@@ -8,12 +8,11 @@
     "target": "es6",
     "sourceMap": true,
     "outDir": "./dist",
+    "rootDir": "./src",
     "types": ["jest", "node"]
   },
   "exclude": ["node_modules"],
   "include": [
-    "package.json",
-    "src/**/*",
-    "test/**/*"
+    "src/**/*"
   ]
 }

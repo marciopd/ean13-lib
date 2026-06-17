@@ -2,7 +2,7 @@
   "name": "ean13-lib",
   "version": "0.0.6",
   "description": "Provides common EAN 13 barcode related features.",
-  "author": "",
+  "author": "Márcio P. Dantas <marciopd@gmail.com>",
   "main": "dist/index",
   "typings": "dist/index",
   "files": [
@@ -30,7 +30,6 @@
   "devDependencies": {
     "@types/jest": "30.0.0",
     "@types/node": "22.19.21",
-    "@types/supertest": "2.0.7",
     "jest": "30.4.2",
     "rimraf": "2.6.3",
     "ts-jest": "29.4.11",
