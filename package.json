@@ -1,6 +1,6 @@
 {
   "name": "ean13-lib",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Provides common EAN 13 barcode related features.",
   "author": "",
   "main": "dist/index",
@@ -20,7 +20,7 @@
     "ts": "tsc",
     "ts:watch": "tsc -w",
     "test": "jest --coverage",
-    "build": "npm run clean; npm run ts",
+    "build": "npm run clean && npm run ts",
     "prepublishOnly": "npm run build"
   },
   "repository": {
@@ -29,7 +29,7 @@
   },
   "devDependencies": {
     "@types/jest": "30.0.0",
-    "@types/node": "10.12.18",
+    "@types/node": "22.19.21",
     "@types/supertest": "2.0.7",
     "jest": "30.4.2",
     "rimraf": "2.6.3",

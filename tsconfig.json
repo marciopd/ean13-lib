@@ -8,7 +8,6 @@
     "target": "es6",
     "sourceMap": true,
     "outDir": "./dist",
-    "baseUrl": "./",
     "types": ["jest", "node"]
   },
   "exclude": ["node_modules"],
